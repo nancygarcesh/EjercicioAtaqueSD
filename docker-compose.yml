@@ -1,10 +1,8 @@
-version: '3.8'
-
+version: "3.8"
 services:
   vulnerable_app:
-    build: ./vulnerable_app
-    container_name: vulnerable_app
+    build:
+      context: ./vulnerable_app
+      dockerfile: Dockerfile
     ports:
       - "8888:5160"
-
-
