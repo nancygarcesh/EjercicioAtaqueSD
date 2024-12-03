@@ -5,4 +5,4 @@
     image: vulnerable_app
     container_name: vulnerable_app
     ports:
-      - "8888:5000"
+      - "8888:5160"
