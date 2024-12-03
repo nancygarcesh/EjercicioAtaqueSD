@@ -1,6 +1,10 @@
+version: '3.8'
+
+services:
   vulnerable_app:
-    build: ./vulnerable_app
-    image: vulnerable_app
+    build: ./vulnerable_app  # Ruta al Dockerfile
     container_name: vulnerable_app
     ports:
-      - "5000:5000"
+      - "8888:5000"
+
+
